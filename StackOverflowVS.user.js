@@ -20,6 +20,7 @@ function addGlobalStyle(css) {
     head.appendChild(style);
 }
 
+
 addGlobalStyle('div.container { background: #2D2D30; !important;}');
 addGlobalStyle('div.post-text { color:lightgray; !important;}');
 addGlobalStyle('span.comment-copy { color:gray; !important;}');
@@ -67,7 +68,21 @@ addGlobalStyle('.pun {color:gainsboro; !important;}');
 addGlobalStyle('.kwd {color:#569cd6; !important;}');
 addGlobalStyle('.lit {color:#b5cea8; !important;}');
 addGlobalStyle('.str {color:#d69d85; !important;}');
-addGlobalStyle('.excerpt {color:#fff; !important;}');
+addGlobalStyle('.tag { color: #569cd6; !important;}');
+addGlobalStyle('.atv { color: #d69d85; !important;}');
+addGlobalStyle('.atn { color: #569cd6; !important;}');
+addGlobalStyle('.excerpt {color:#d2d2d2; !important;}');
 addGlobalStyle('.question-status  {background:rgba(74, 74, 74, 0.73); !important;}');
 addGlobalStyle('.question-status p  {color:dimgray; !important;}');
 addGlobalStyle('#mainbar h2  {color:dimgray; !important;}');
+addGlobalStyle('.vote-count-post strong {color:white; !important;}');
+addGlobalStyle('.answered-accepted {color: #FAFF63; background:#687B48; !important;}');
+addGlobalStyle('#hmenus .nav ul li.youarehere a {background:#0095FF; !important;}');
+addGlobalStyle('.pager .current {border-color:#fff; !important;}');
+addGlobalStyle('.page-numbers.current {background:#0095FF; !important;}');
+addGlobalStyle('.tagged-interesting {background:#444444; !important;}');
+addGlobalStyle('.views {color:#fff; !important;}');
+addGlobalStyle('.vote {color:white; !important;}');
+addGlobalStyle('.status {color:white; !important;}');
+addGlobalStyle('.statscontainer .votes {color:white; !important;}');
+addGlobalStyle('#hmenus .nav ul li a:hover {background:#0095FF; !important;}');
