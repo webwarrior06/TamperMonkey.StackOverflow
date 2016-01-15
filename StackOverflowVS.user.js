@@ -86,3 +86,5 @@ addGlobalStyle('.vote {color:white; !important;}');
 addGlobalStyle('.status {color:white; !important;}');
 addGlobalStyle('.statscontainer .votes {color:white; !important;}');
 addGlobalStyle('#hmenus .nav ul li a:hover {background:#0095FF; !important;}');
+addGlobalStyle('#hlogo a {background-image: url(http://StylishThemes.github.io/StackOverflow-Dark/images/stackoverflow-logo.svg); !important;}');
+
